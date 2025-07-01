@@ -1,5 +1,5 @@
 const Squared = (price) => {
-    console.log(price * price);
+    return price*price;
 }
 
-Squared(10);
+console.log(Squared(10));
